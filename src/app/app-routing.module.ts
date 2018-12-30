@@ -12,7 +12,7 @@ const routes: Routes = [
   {
     path: '',
     component: RemitComponent,
-    canActivate: [AuthGuard]
+    // canActivate: [AuthGuard]
   },
   {
     path: 'login',
@@ -21,17 +21,17 @@ const routes: Routes = [
   {
     path: 'remit-history',
     component: HistoryComponent,
-    canActivate: [AuthGuard]
+    // canActivate: [AuthGuard]
   },
   { 
     path: 'remit-limits',
     component: LimitsComponent,
-    canActivate: [AuthGuard]
+    // canActivate: [AuthGuard]
   },
   {
     path: 'remit-create',
     component: RemitComponent,
-    canActivate: [AuthGuard]
+    // canActivate: [AuthGuard]
   },
   {
     path: '**',
