@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\src",
+    "\\src\\app",
+    "\\src\\app\\components",
+    "\\src\\app\\components\\menu",
+    "\\src\\app\\components\\remit",
+    "\\src\\app\\utils",
+    "\\src\\assets",
+    "\\src\\assets\\css"
+  ],
+  "SelectedNode": "\\src\\app\\components\\remit\\remit.component.html",
+  "PreviewInSolutionExplorer": false
+}

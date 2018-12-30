@@ -1,0 +1,1060 @@
+.mat-card {
+  padding: 0;
+}
+
+.remit-card {
+  max-width: 1280px;
+  /* margin: auto; */
+  margin-bottom: 20px;
+  height: auto;
+  background: #0b1220;
+  margin-top: 80px;
+  padding: 0 15px;
+
+  padding-bottom: 50px;
+}
+
+.header {
+  width: 100%;
+  height: 55px;
+  padding-top: 20px;
+}
+
+.header ul{
+  width: 320px;
+  margin: 0 auto;
+}
+
+.header li {
+  line-height: 28px;
+  color: #fff;
+  float: left;
+  list-style-type: none;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #454b52;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 24px;
+  color: #454b52;
+}
+
+.header .line {
+  width: 30px;
+  height: 2px;
+  background: #454b52;
+  float: left;
+  margin-top: 15px;
+}
+
+.header .line.active {
+  width: 30px;
+  height: 2px;
+  background: #fad9ac;
+  float: left;
+  margin-top: 15px;
+}
+
+.header li.active {
+  line-height: 28px;
+  color: #fff;
+  float: left;
+  list-style-type: none;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #f5e8d7;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 24px;
+  color: #fad9ac;
+}
+
+.sidebar {
+  padding-top: 60px;
+}
+
+.sidebar ul {
+  margin: 0 auto;
+  width: 290px;
+}
+.sidebar li {
+  list-style-type: none;
+}
+ 
+.sidebar li span {
+  width: 32px;
+  height: 32px;
+  border: 2px solid #fad9ac;
+  position: absolute;
+  text-align: center;
+  border-radius: 50%;
+  color: #fad9ac;
+}
+
+.sidebar li p {
+  padding: 4px 0 0 53px;
+  font-size: 22px;
+}
+
+.sidebar .line {
+  width: 100px;
+  height: 2px;
+  background: #fad9ac;
+  margin: 45px auto;
+  margin-bottom: 50px;
+}
+
+.send_info .description {
+  font-size: 12px;
+  color: #fad9ac;
+  line-height: 1.1;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.sidebar .eclipse {
+  width: 142px;
+  height: 142px;
+  background-image: url(/../../assets/images/icons/remit/eclipse.png);
+  margin: 0px auto;
+}
+
+  .sidebar .eclipse .header {
+    color: #c4ac8c;
+    text-transform: uppercase;
+    font-size: 14px;
+    margin: 60px 20px 0px 22px;
+    padding: 30px 0 0 0px;
+  }
+
+  .sidebar .eclipse .content {
+    color: #c4ac8c;
+    font-size: 44px;
+    margin: 2px 0 0 15px;
+  }
+
+  .sidebar .eclipse .footer {
+    color: #c4ac8c;
+    text-transform: uppercase;
+    font-size: 16px;
+    margin: 5px 0 0 17px;
+  }
+
+  .remit_step_one .title {
+    margin: 47px auto;
+    max-width: 650px;
+    height: 60px;
+  }
+
+  .remit_step_one .title h1 {
+    float: left;
+  }
+
+  .remit_step_one .title select {
+    text-transform: none;
+    float: left;
+    /* width: 350px; */
+    font-size: 35px;
+    border-bottom: 2px solid #fad9ac;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: #fff;
+    margin-left: 20px; 
+    margin-top: 10px;
+    background: #0b1220;
+    /* color: #fad9ac;  */
+  }
+
+.remit_step_one .send_info input {
+  font-size: 30px;
+  background: none;
+  border-bottom: 2px solid #fad9ac;
+  border-radius: 0;
+  width: 300px;
+  padding: 0;
+  color: #fff;
+}
+
+.remit_step_one .send_info select {
+  background: #0b1220;
+  color: #fad9ac;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 2px solid;
+  font-size: 25px;
+  height: 46px;
+}
+
+.c {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+
+/* Hide the browser's default checkbox */
+.c input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  height: 25px;
+  width: 25px;
+  background-color: #0b1220;
+  border: 5px solid #fad9ac;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* On mouse-over, add a grey background color */
+.c:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.c input:checked ~ .checkmark {
+  background-color: #fad9ac;
+  border-color: #484d58;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.c input:checked ~ .checkmark:after {
+  display: block;
+}
+
+.c p {
+  margin: 2px 0px 0px 40px;
+}
+
+
+/* Style the checkmark/indicator */
+
+.delivery_method {
+  position: relative;
+  margin-left: 20px;
+}
+
+.delivery_method h3 {
+  margin: 30px 0px 40px 0;
+}
+
+.delivery_location {
+  margin-left: 20px;
+}
+
+.delivery_location h3 {
+  margin: 20px 0px 40px 0;
+}
+
+.buttons {
+  text-align: right;
+  margin: 20px auto;
+  padding-right: 150px;
+}
+
+.buttons a {
+  color: #fad9ac;
+  text-transform: uppercase;
+  font-size: 30px;
+  /* float: right; */
+  margin: 70px 40px 0 0px;
+}
+
+.buttons .back_button::before {
+  content: '';
+  background-image: url(/../../assets/images/icons/remit/back_arrow.png);
+  width: 14px;
+  height: 26px;
+  position: absolute;
+  margin: 10px 0 0 -27px;
+}
+
+.buttons .next_button::after {
+  content: '';
+  width: 14px;
+  background-image: url(/../../assets/images/icons/remit/next_arrow.png);
+  height: 26px;
+  position: absolute;
+  margin: 10px 0 0 10px;
+}
+
+.buttons a:hover {
+  text-decoration:none;
+}
+
+
+.remit_step_two .user_info .title {
+  margin: 47px 0 5px 0;
+  height: 60px;
+}
+
+
+.remit_step_two .user_info .description {
+  font-size: 12px;
+  color: #fad9ac;
+  line-height: 1.1;
+  margin-top: 10px;
+  margin-left: 40px;
+}
+
+.remit_step_two .user_info h1 {
+  margin-left: -2px;
+}
+
+.remit_step_two .user_info input {
+  font-size: 22px;
+  background: none;
+  border-bottom: 2px solid #fad9ac;
+  border-radius: 0;
+  max-width: 535px;
+  padding: 0;
+  color: #fff;
+}
+
+.remit_step_two .user_info .contact_block input {
+  max-width: 245px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+}
+
+.remit_step_two .user_info .contact_block input.full {
+  max-width: 540px;
+}
+
+.remit_step_two .user_info .contact_block .c {
+  max-width: 450px;
+  /* position: absolute; */
+  margin-top: 25px;
+}
+
+.title {}
+
+.remit_step_three .user_info .title {
+  margin: 47px 0 5px 0;
+  height: 60px;
+}
+
+
+.remit_step_three .user_info .description {
+  color: #f9d8ab;
+  font-size: 16px;
+  max-width: 600px;
+}
+
+.remit_step_three .user_info h1 {
+  margin-left: -2px;
+}
+
+.remit_step_three .user_info input {
+  font-size: 22px;
+  background: none;
+  border-bottom: 2px solid #fad9ac;
+  border-radius: 0;
+  max-width: 535px;
+  padding: 0;
+  color: #fff;
+}
+
+.remit_step_three .user_info .contact_block input {
+  max-width: 245px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+
+.remit_step_three .user_info .contact_block input.full {
+  max-width: 540px;
+}
+
+.remit_step_three .user_info .contact_block .c {
+  max-width: 450px;
+  position: absolute;
+  margin-top: 25px;
+}
+
+
+.remit_step_four .user_info .title {
+  margin: 47px 0 5px 0;
+  height: 60px;
+}
+
+
+.remit_step_four .user_info .description {
+  color: #f9d8ab;
+  font-size: 16px;
+  max-width: 600px;
+  margin-left: 0px;
+  margin-top: 30px;
+}
+
+.remit_step_four .user_info h1 {
+  margin-left: 10px;
+}
+
+.remit_step_four .user_info input {
+  font-size: 22px;
+  background: none;
+  border-bottom: 2px solid #fad9ac;
+  border-radius: 0;
+  max-width: 535px;
+  padding: 0;
+  color: #fff;
+}
+
+.card_type p {
+  font-size: 25px;
+}
+
+.remit_step_four .user_info .contact_block input {
+  max-width: 245px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+
+  .remit_step_four .user_info .contact_block input.full {
+    max-width: 540px;
+  }
+
+.remit_step_four .user_info .contact_block .c {
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.alarm {
+/* .description::before { */
+  /* content: ''; */
+  /* background-image: url(/../../assets/images/icons/remit/alarm.png); */
+  width: 35px;
+  height: 29px;
+  /* position: absolute; */
+  /* margin: 20px auto; */
+  /* text-align: right; */
+/* } */
+}
+
+
+.remit_step_five .user_info .title {
+  margin: 47px 0 5px 0;
+  height: 60px;
+}
+
+
+.remit_step_five .user_info .description {
+  color: #f9d8ab;
+  font-size: 16px;
+  max-width: 600px;
+}
+
+.remit_step_five .user_info h1 {
+  margin-left: -2px;
+}
+
+.remit_step_five .user_info input {
+  font-size: 22px;
+  background: none;
+  border-bottom: 2px solid #fad9ac;
+  border-radius: 0;
+  width: 535px;
+  padding: 0;
+  color: #fff;
+}
+
+.remit_step_five .user_info .contact_block input {
+  width: 245px;
+  margin-right: 50px;
+  margin-bottom: 10px;
+}
+
+  .remit_step_five .user_info .contact_block input.full {
+    width: 540px;
+  }
+
+.remit_step_five .user_info .contact_block .c {
+  width: 450px;
+  position: absolute;
+  margin-top: 25px;
+}
+
+.remit_step_five .info_block .item {
+  display:flex;
+}
+
+.remit_step_five .info_block h4 {
+  display: flex;
+  color: #fad9ac;
+}
+
+.remit_step_five .info_block .name {
+  color: #fff;
+  margin-right: 15px;
+}
+
+.remit_step_five .info_block {
+  margin-top: 40px;
+}
+
+.remit_step_five .c p {
+  margin: 2px 0px 0px 40px;
+  font-size: 25px;
+  color: #fad9ac;
+}
+
+
+.remit_step_five .c {
+  margin-top: 40px;
+}
+
+
+.remit_step_five .buttons a {
+  float: left;
+  margin: 70px 10px 0 30px;
+}
+
+.remit_step_five .buttons .send_button {
+  color: #fff;
+}
+
+
+.remit_step_five .buttons .send_button:after {
+  content: '';
+  background-image: url(/../../assets/images/icons/remit/send.png);
+  width: 45px;
+  height: 49px;
+  position: absolute;
+  background-size: cover;
+  margin: -9px 0 0 8px;
+}
+
+
+.buttons .next_button::after {
+  content: '';
+  width: 14px;
+  background-image: url('/../../assets/images/icons/remit/next_arrow.png');
+  height: 26px;
+  position: absolute;
+  margin: 7px 0 0 10px;
+}
+
+.buttons a:hover {
+  text-decoration:none;
+  border-bottom: 2px solid #fad9ac;
+}
+/* 
+.col-lg-12 {
+  max-width: 75%;
+} */
+
+/* ===============
+  | TABLET DESIGN |
+  ================ */
+
+@media (min-width: 992px){
+  @media (max-width: 1360px) {
+    .col-lg-2 {
+      -webkit-box-flex: 0;
+      -ms-flex: 0 0 16.666667%;
+      flex: 0 0 16.666667%;
+      max-width: 140px;
+    }
+    .col-lg-10 {
+      margin-left: 20px;
+    }
+  }
+}
+
+@media (min-width: 600px ){
+  @media (max-width: 780px) {
+    .remit_step_two .user_info .contact_block input.full { width: 245px; }
+
+    .sidebar ul { 
+      width: 290px; 
+      padding-left: 0px; 
+    }
+
+    .remit_step_two .user_info input {
+      width: 245px;
+    }
+
+    .customH {
+      margin-top: 40px;
+    }
+
+
+    h1 { font-size: 3.2rem; line-height: 6rem; font-weight: 600; margin-bottom: 2rem; }
+  }
+}
+
+
+@media (min-width: 1025px ){
+  @media (max-width: 1080px) {
+    .customH {
+      margin-top: 60px;
+    }
+  }
+}
+
+
+@media (min-width: 780px ){
+  @media (max-width: 880px) {
+    .customH {
+      margin-top: 60px;
+    }
+  }
+}
+
+
+@media (min-width: 780px ){
+  @media (max-width: 944px) {
+    .remit_step_two .user_info input, .full {
+      width: 245px;
+    }
+  }
+}
+
+@media only screen and (device-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+
+  .remit_step_one .send_info input {
+    font-size: 30px;
+    background: none;
+    border-bottom: 2px solid #fad9ac;
+    border-radius: 0;
+    max-width: 110px;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+    line-height: 6rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+  }
+
+  .remit_step_one .title select { 
+    width: 200px; 
+    font-size: 25px;
+  }
+
+  .remit_step_one .title {
+    padding-left: 30px;
+  }
+
+}
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 1024px) and (orientation:portrait) {
+  .sidebar {
+    display: none;
+  }
+
+  .col-lg-9 {
+    width: 100% !important;
+  }
+
+  .remit_step_one .send_info input {
+    font-size: 30px;
+    background: none;
+    border-bottom: 2px solid #fad9ac;
+    border-radius: 0;
+    max-width: 160px;
+  }
+
+  .col-lg-12 {
+    max-width: 100%;
+  }
+
+  .buttons {
+    text-align: center;
+  }
+
+  .buttons a{
+    float: none;
+  }
+}
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 1024px) and (orientation:landscape) {
+  .sidebar {
+    display: none;
+  }
+  
+  .col-lg-9 {
+    margin-left: 50px;
+    width: 750px;
+  }
+
+  .remit_step_one .send_info input {
+    font-size: 30px;
+    background: none;
+    border-bottom: 2px solid #fad9ac;
+    border-radius: 0;
+    max-width: 160px;
+  }
+
+  .col-lg-12 {
+    max-width: 100%;
+  }
+  .buttons {
+    text-align: center;
+  }
+
+  .buttons a{
+    float: none;
+  }
+
+  .buttons a {
+    color: #fad9ac;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 70px 10px 0 0px;
+  }
+
+  .buttons .back_button::before {
+    content: '';
+    width: 10px;
+    background-image: url(/../../assets/images/icons/remit/back_arrow_min.png);
+    height: 18px;
+    position: absolute;
+    margin: 7px 0 0 -23px;
+  }
+  
+  .buttons .next_button::after {
+    content: '';
+    width: 10px;
+    background-image: url(/../../assets/images/icons/remit/next_arrow_min.png);
+    height: 18px;
+    position: absolute;
+    margin: 7px 0 0 10px;
+  }
+}
+
+
+@media (max-width: 1360px) {
+  .sidebar {
+    display: none;
+  }
+}
+
+
+
+@media (min-width: 600px ){
+  @media (max-width: 780px) {
+    .remit_step_one .title select {
+      text-transform: none;
+      float: left;
+      width: 200px;
+      font-size: 25px;
+    }
+    
+    .remit_step_one .send_info input {
+      font-size: 30px;
+      background: none;
+      border-bottom: 2px solid #fad9ac;
+      border-radius: 0;
+      width: 110px;
+    }
+  }
+  .remit_step_three .user_info .contact_block input.full {
+    width: 245px;
+}
+}
+
+@media(min-width: 600px) {
+  @media (max-width: 749px) {
+    
+  }
+}
+
+
+@media (min-width: 1024px ){
+  @media (max-width: 1360px) {
+    .remit_step_one .title select {
+      text-transform: none;
+      float: left;
+      width: 200px;
+      font-size: 25px;
+    }
+    
+    .remit_step_one .send_info input {
+      font-size: 30px;
+      background: none;
+      border-bottom: 2px solid #fad9ac;
+      border-radius: 0;
+      width: 110px;
+    }
+  }
+}
+
+/* =========
+  | STEP 4 |
+  ========== */
+
+  /* 600 - 780 */
+@media only screen and (min-device-width: 600px) and (max-device-width: 850px) and (orientation:portrait) { 
+  .remit_step_four .user_info .contact_block input.full {
+    width: 245px;
+  }
+
+  .buttons a {
+    font-size: 20px;
+  }
+
+  .buttons .back_button::before {
+    content: '';
+    background-image: url(/../../assets/images/icons/remit/back_arrow_min.png);
+    width: 10px;
+    height: 18px;
+  }
+
+  .buttons .next_button::after {
+    content: '';
+    width: 10px;
+    height: 18px;
+    background-image: url(/../../assets/images/icons/remit/next_arrow_min.png);
+  }
+}
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 850px) and (orientation:landscape) {
+  .remit_step_four .user_info .contact_block input.full {
+    width: 245px;
+  }
+}
+/* =======
+  | Step 5 |
+  ========= */
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 975px) and (orientation:portrait) { 
+  .remit_step_five .buttons a {
+    font-size: 20px;
+  }
+
+  .buttons .back_button::before {
+    content: '';
+    background-image: url(/../../assets/images/icons/remit/back_arrow_min.png);
+    width: 10px;
+    height: 18px;
+  }
+
+.remit_step_five .buttons .send_button:after {
+  content: '';
+  background-image: url(/../../assets/images/icons/remit/send.png);
+  width: 32px;
+  height: 28px;
+  position: absolute;
+  background-size: cover;
+  margin: -5px 0 0 8px;
+}
+}
+
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 975px) and (orientation:landscape) {
+  .remit_step_five .buttons a {
+    font-size: 20px;
+  }
+  
+  .buttons .back_button::before {
+    content: '';
+    background-image: url(/../../assets/images/icons/remit/back_arrow_min.png);
+    width: 10px;
+    height: 18px;
+  }
+
+  .remit_step_five .buttons .send_button:after {
+    content: '';
+    background-image: url(/../../assets/images/icons/remit/send.png);
+    width: 32px;
+    height: 28px;
+    position: absolute;
+    background-size: cover;
+    margin: -5px 0 0 8px;
+  }
+ }
+
+
+
+/* ===============
+  | MOBILE DESIGN |
+   =============== */
+ 
+ /* STEP 1 */
+
+@media only screen and (max-device-width: 599px)  {
+  .n {
+    display: none;
+  }
+
+  .buttons {
+    padding-right: 0px;
+  }
+
+  option {
+    font-size: 15px;
+  }
+
+  .send_info{
+    padding: 0 15px;
+  }
+
+  .remit_step_one .title select {
+    font-size: 25px;
+    margin-left: 0px;
+  }
+
+  .remit_step_one .send_info input {
+    width: 100px;
+  }
+
+  .oneH1 {
+    margin-bottom: 0px;
+  }
+  
+  .remit_step_two .user_info input, .full {
+    width: 245px;
+  }
+
+}
+
+/* ======== 
+  | STEP 2 |
+   ======== */
+
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+  .step_two_h1 {
+    float: left;
+  }
+
+  .buttons a {
+    color: #fad9ac;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 70px 10px 0 0px;
+  }
+
+  .buttons .back_button::before {
+    content: '';
+    width: 10px;
+    background-image: url(/../../assets/images/icons/remit/back_arrow_min.png);
+    height: 18px;
+    position: absolute;
+    margin: 7px 0 0 -23px;
+  }
+  
+  .buttons .next_button::after {
+    content: '';
+    width: 10px;
+    background-image: url(/../../assets/images/icons/remit/next_arrow_min.png);
+    height: 18px;
+    position: absolute;
+    margin: 7px 0 0 10px;
+  }
+}
+
+
+/* ======== 
+  | STEP 3 |
+   ======== */
+
+  @media only screen and (max-width: 600px) and (orientation: portrait) {
+  .remit_step_three .buttons {
+    text-align: center;
+  }
+  .remit_step_three .contact_block {
+    margin-top: 50px;
+  }
+}
+
+
+/* ======== 
+  | STEP 4 |
+   ======== */
+
+  @media only screen and (max-width: 600px) and (orientation: portrait) {
+  .remit_step_four .buttons {
+    text-align: center;
+  }
+
+  .remit-card {
+    margin-top:  0px;
+  }
+  
+  .remit_step_five .buttons .back_button::before {
+    margin: 
+  }
+
+  .remit_step_five .buttons .send_button:after {
+    content: '';
+    background-image: url(/../../assets/images/icons/remit/send_min.png);
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    background-size: cover;
+    margin: -2px 0 0 6px;
+  }
+  
+  .remit_step_five .buttons a {
+    float: left;
+    margin: 40px 10px 0 10px;
+  }
+
+  .remit_step_five .c p {
+    margin: 0px 0px 0px 25px;
+    font-size: 25px;
+    color: #fad9ac;
+  }
+
+  .checkmark {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+/* ======== 
+  | STEP 4 |
+   ======== */
+
+@media only screen and (max-width: 600px) and (orientation: portrait) {
+  .remit_step_five h1{
+    font-size: 30px;
+  }
+
+  .remit_step_five h4 {
+    font-size: 2.4rem;
+  }
+
+  .checkmark {
+    height: 15px;
+    width: 15px;
+    border: 3px solid #fad9ac;
+  }
+
+  .remit_step_five .c p {
+    margin: -4px 0px 0px 25px;
+  }
+
+  .remit_step_five .buttons a {
+    float: left;
+    margin: 20px 10px 0 10px;
+  }
+  
+  .remit_step_five .buttons {
+    text-align: center;
+    width: 100%;
+  }
+
+  .remit_step_five[_ngcontent-c1] .c[_ngcontent-c1] p[_ngcontent-c1] {
+    margin: 0px 0px 0px 25px;
+    font-size: 20px;
+    color: #fad9ac;
+  }
+}

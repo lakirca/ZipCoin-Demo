@@ -1,0 +1,115 @@
+* {
+  font-family: "Leto";
+}
+.mat-card {
+  padding: 0;
+}
+
+.remit-card {
+  max-width: 1280px;
+  /* margin: auto; */
+  margin-bottom: 20px;
+  max-height: 880px;
+  background: #0b1220;
+  margin-top: 80px;
+  padding: 0 15px;
+  padding-bottom: 50px;
+}
+
+body{
+  font-family: 'Leto', serif;
+  line-height: 1.6
+}
+
+.container{
+  width: 60%;
+  margin: 0 auto;
+}
+
+.header {
+  font-family: "Leto";
+  font-size: 40px;
+  padding-top: 35px;
+  font-weight: 500;
+  color: #fad9ac;
+
+}
+
+.text-center {
+  font-weight: 500;
+}
+
+/* Style the checkmark/indicator */
+.buttons {
+  text-align: center;
+}
+
+
+.buttons a {
+  color: #fad9ac;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.back_button {
+  margin-top: 50px;
+}
+
+.buttons .back_button::before {
+  content: '';
+  background-image: url(/../../assets/images/icons/remit/back_arrow.png);
+  width: 14px;
+  height: 26px;
+  position: absolute;
+  margin: 8px 0 0 -27px;
+}
+
+.buttons a:hover {
+  text-decoration:none;
+  border-bottom: 2px solid #fad9ac;
+}
+
+@media only screen and (max-device-width: 600px) and (orientation: portrait) {
+  .buttons .back_button::before {
+    content: '';
+    background-image: url(/../../assets/images/icons/remit/back_arrow_min.png);
+    width: 10px;
+    height: 18px;
+    position: absolute;
+    margin: 1px 0 0 -20px;
+  } 
+
+  .container {
+    width: 100%;
+  }
+
+  .remit-card {
+    /* height: 700px; */
+    padding-bottom: 0px;
+  }
+
+  .header {
+    font-size: 30px;
+    color: #fad9ac;
+  }
+
+  .buttons a {
+    line-height: 30px;
+    font-size: 25px;
+  }
+  *, body, html {
+    background: #0b1220 !important;
+  }
+  
+}
+
+@media only screen and (min-device-width: 890px) {
+  .remit-card {
+    max-width: 1280px;
+    margin-bottom: 20px;
+    height: 600px;
+    background: #0b1220;
+    margin-top: 80px;
+    padding-bottom: 50px;
+  }
+}

@@ -1,0 +1,58 @@
+/* You can add global styles to this file, and also import other style files */
+/* @import url('https://fonts.googleapis.com/css?family=Material+Icons'); */
+/* @import "../node_modules/@angular/material/prebuilt-themes/deeppurple-amber.css"; */
+
+body {
+  background: transparent;
+}
+
+@media only screen and (max-device-width: 600px) and (orientation: portrait) {
+  body {
+    background: #0b1220 !important;
+  }
+}
+
+/* 
+<div class="row">
+  <div class="col-lg-2 col-sm-2">
+      <menu-component></menu-component>
+  </div>
+    <div class="col-lg-10 col-sm-8">  
+    <div class="remit-card">
+      <h1 class="header text-center">Account Verification</h1>
+      <div class="row">
+
+        <div class="check">
+          <div class="selectDiv">
+            <select name="country"> 
+              <option value="USA">USA</option>
+            </select>
+            <label for="country">Please upload a photo of your passport. The photo should be bright and clear, and all corners of your document must be visible </label>
+            <label class="c">
+              <input type="checkbox">
+              <span class="checkmark"></span>
+              <!-- TODO Add Functionality to this Checkpoint on Click -->
+              <p>Add another page</p>
+            </label>
+            
+            <div class="col-lg-6 col-md-6 col-sm-12">
+              <div class="uploadDiv">
+                <!-- <img src="../../../../assets/images/icons/upload.png" alt="" style="float: left; width: 50px"> -->
+                <input type="file" name="file" id="file" class="upload"/>
+                <label for="file" class="passport"></label>
+                <p class="text-center uploadP">.jpg or .pdg should be more then 500KB and 300DPI</p>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 passportImg">
+              <img src="../../../../assets/images/Layer 4.png" style="height: 188px">
+            </div>
+          </div>
+          <div class="col-lg-12">
+            <div class="buttons">
+              <a class="next_button" href="#">PROCEED</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> */

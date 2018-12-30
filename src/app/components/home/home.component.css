@@ -1,0 +1,399 @@
+* {
+  font-family: "Leto";
+}
+.mat-card {
+  padding: 0;
+}
+
+.remit-card {
+  max-width: 1280px;
+  /* margin: auto; */
+  margin-bottom: 20px;
+  height: auto;
+  background: #0b1220;
+  margin-top: 80px;
+  padding: 0 15px;
+
+  padding-bottom: 50px;
+}
+
+body{
+  font-family: 'Leto', serif;
+  line-height: 1.6
+}
+.container{
+  width: 100%;
+  margin: 50px 10px 20px;;
+}
+
+.header {
+  width: 100%;
+  height: 55px;
+  padding-top: 20px;
+}
+
+h1{
+  font-weight: 500;
+  margin-left: 20px;
+}
+
+.col-lg-4 {
+  margin-top: 20px;
+}
+
+.imgRow {
+  width: 100%;
+  float: left;
+  margin-bottom: 20px;
+}
+
+.butn {
+  background: transparent;
+  border-color: transparent;
+  width: auto;
+  cursor: pointer;
+  float: left;
+  margin-top:  13px;
+}
+
+.mybtn {
+  background: transparent;
+  border-color: transparent;
+  width: auto;
+  cursor: pointer;
+}
+
+.chart {
+  margin: 10% 0 0 20px;
+}
+
+.img {
+  margin-right: 20px; 
+  float: left;
+}
+
+.i {
+  float: left;
+}
+
+.rightRow {
+  float: left;
+  margin-left: 60px;
+}
+
+h5 {
+  font-weight: 400;
+}
+
+span {
+  float: left;
+  font-size: 40px;
+  color: #fad9ac;
+  margin-top: 2%;
+}
+
+.left {
+  font-size: 25px;
+  float: left;
+}
+
+p {
+  margin-bottom: 10px;
+  width: 100%;
+}
+
+.ring {
+  background: transparent;
+  border-color: transparent;
+  float: right;
+}
+
+.myspan {
+  margin-bottom: 5%;
+}
+
+.notifications {
+  margin-top: 15%;
+  float: left;
+  width: 100%;
+}
+
+.not{
+  float: left;
+  width: 80%;
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.row1 {
+  float: left;
+  width: 100%;
+  border: 2px solid #fad9ac;
+  margin-top: 25px;
+}
+
+.close, .ring {
+  color: #fad9ac;
+  cursor: pointer;
+}
+
+.close {
+  margin: 5px;
+}
+
+/* ==============
+  | TABLET DESIGN| 
+  =============== */
+
+@media only screen and (device-width: 768px) {
+  .remit-card {
+    height: auto;
+  }
+
+  span {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+  .col-lg-4 {
+    margin-left: 25%;
+  }
+
+  .sp {
+    padding-left: 40px;
+  }
+
+  .last {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+  .row1 {
+    float: left;
+    width: 100%;
+    border: 2px solid #fad9ac;
+    margin-top: 10px;
+  }
+
+  .not { 
+    float: left; 
+    width: 75%; 
+    margin-left: 20px; 
+    font-size: 18px; 
+    font-weight: 600; 
+    margin-top: 5px; 
+  }
+
+  .butn { 
+    background: transparent; 
+    border-color: transparent; 
+    width: auto; 
+    cursor: pointer; 
+    float: left; 
+    margin-top:  13px;    
+  }
+
+  span { 
+    float: left; 
+    font-size: 25px; 
+    color: #fad9ac; 
+    margin-top: 2%; 
+  }
+
+  .butn { 
+    background: transparent; 
+    border-color: transparent; 
+    width: auto; 
+    cursor: pointer; 
+    float: left; 
+    margin-top:  13px;
+  }
+
+  .img { 
+    margin-right: 5px; 
+    float: left; 
+    width: 35px; 
+  }
+
+  .last {
+    display: none;
+  }
+}
+
+@media only screen and (max-device-width: 1024px) and (min-device-width: 481px) and (orientation: portrait) {
+  .col-lg-4 {
+      margin-left: 0px;
+  }
+}
+
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1455px) and (orientation:landscape) {
+  .img {
+    margin-right: 5px;
+    height: 40px;
+  }
+
+  .butn {
+    margin: 4% 0 0;
+  }
+
+  .i {
+    height: 15px;
+  }
+
+  span {
+    font-size: 25px;
+  }
+}
+
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1455px) and (orientation: portrait) {
+  .img {
+    margin-right: 5px;
+    height: 40px;
+  }
+
+  .butn {
+    margin: 4% 0 0;
+  }
+
+  .i {
+    height: 15px;
+  }
+
+  span {
+    font-size: 25px;
+  }
+}
+
+/* ===============
+  | MOBILE DESIGN |
+  ================  */
+
+@media only screen and (max-device-width: 600px) and (orientation: portrait) {
+  * {
+    background: #0b1220;
+  }
+
+  .remit-card {
+    margin-top: 10px;
+  }
+  
+  .home {
+    display: none;
+  }
+  
+  .col-sm-2 {
+    max-width: 0px;
+    padding: 0;
+  }
+
+  .col-lg-10, .col-sm-8 {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .img {
+    height: 40px;
+    margin-right: 10px;
+  }
+
+  span {
+    font-size: 25px;
+    margin-top: 1%;
+  }
+
+  .i {
+    height: 15px;
+  }
+
+  .butn {
+    margin-top: 6px;
+  }
+  
+  .left {
+    font-size: 20px;
+    line-height: 12px;
+  }
+
+  .chart {
+    margin-left: 15px;
+  }
+
+  .last {
+    display: none;
+  }
+}
+
+@media only screen and (max-device-width: 600px) and (orientation: landscape) {
+  
+}
+
+@media only screen and (max-device-width: 670px) and (orientation: portrait) {
+  span {
+    font-size: 30px;
+  }
+  
+  .img {
+    height: 50px;
+    margin-right: 5px;
+  }
+
+  .butn {
+    margin: 12px 0 0;
+  }
+
+  .i {
+    height: 15px;
+  }
+  
+} 
+
+@media only screen and (max-device-width: 480px) and (orientation: portrait) {
+  .container, .chart {
+    margin: 0;
+    padding-left: 0;
+  }
+
+}
+
+@media only screen and (max-device-width: 300px) and (orientation: portrait) {
+  span {
+    font-size: 20px;
+    margin-top: 1%;
+  }
+
+  .i {
+    height: 12px;
+  }
+
+  .butn {
+    /* margin-top: 6px; */
+    margin: 3% 0 0 0px;
+  }
+
+  .left {
+    font-size: 18px;
+    line-height: 10px;
+  }
+
+  .img {
+    height: 30px;
+    margin-right: 5px;
+  }
+  
+  .not {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 2px;
+  }
+
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

@@ -1,0 +1,147 @@
+* {
+  font-family: "Leto";
+}
+.mat-card {
+  padding: 0;
+}
+
+.remit-card {
+  max-width: 1280px;
+  /* margin: auto; */
+  margin-bottom: 20px;
+  height: 780px;
+  background: #0b1220;
+  padding: 0 15px;
+  margin-top: 80px;
+}
+
+body{
+  font-family: 'Leto', serif;
+  line-height: 1.6
+}
+.container{
+  width: 100%;
+  margin: 50px 10px 20px;;
+}
+
+.header {
+  font-family: "Leto";
+  font-size: 60px;
+  padding-top: 40px;
+  font-weight: 500;
+  margin-bottom: 100px;
+}
+
+.check {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.checkDiv {
+  margin-bottom: 70px;
+}
+
+/*  ==============
+    | Checkpoint | 
+    ============== */ 
+
+/* Style the checkmark/indicator */
+.buttons {
+  text-align: center;
+}
+
+.buttons a {
+  color: #fad9ac;
+  text-transform: uppercase;
+  font-size: 30px;
+}
+
+.buttons .next_button::after {
+  content: '';
+  width: 14px;
+  background-image: url('../../../../assets/images/icons/remit/next_arrow.png');
+  height: 26px;
+  position: absolute;
+  margin: 7px 0 0 10px;
+}
+
+.buttons a:hover {
+  text-decoration:none;
+  border-bottom: 2px solid #fad9ac;
+}
+
+select {
+  background: #0b1220;
+  color: #fad9ac;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 2px solid;
+  font-size: 25px;
+  /* width: 100%; */
+  height: 50px;
+  /* margin: 10% 0 10% 20%; */
+  /* margin: 0 auto; */
+}
+
+.selectDiv {
+  padding-bottom: 200px;
+  width: 100%;
+}
+
+
+.text-center {
+  padding-top: 30px;
+}
+
+@media only screen and (max-device-width: 600px) and (orientation: portrait) {
+  * {
+    background: #0b1220  
+  }
+
+  .remit-card {
+    margin-top: 30px;
+    height: 780px;
+  }
+
+  .selectDiv {
+    padding-left: 15px;
+    padding-bottom: 100px;
+  }
+
+  select {
+    font-size: 16px;
+    /* margin: 0 15px; */
+    margin: 10% 0 10% 20%;
+  }
+
+  .col-sm-2 {
+    display: none;
+  }
+
+  .text-center {
+    padding-top: 10px;
+  }
+}
+
+@media only screen and (max-device-width: 600px) and (orientation: landscape) {
+  * {
+    background: #0b1220  
+  }
+
+  .remit-card {
+    margin-top: 30px;
+  }
+
+  .text-center {
+    padding-top: 10px;
+  }
+
+  .selectDiv {
+    padding-bottom: 70px;
+  }
+  
+  .col-sm-2 {
+    display: none;
+  }
+}

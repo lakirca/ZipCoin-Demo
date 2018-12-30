@@ -1,0 +1,311 @@
+<div class="row">
+  <div class="col-lg-2 col-sm-2 n">
+    <menu-component></menu-component>
+  </div>
+  <div class="col-lg-10 col-sm-10">
+    <div class="remit-card">
+      <div class="row">
+        <div class="col-lg-3 col-sm-3 sidebar">
+          <ul>
+            <li><span>1</span><p>Amount & Delivery</p></li>
+            <li><span>2</span><p>Beneficiary’s info</p></li>
+            <li><span>3</span><p>Sender info</p></li>
+            <li><span>4</span><p>Payment info</p></li>
+            <li><span>5</span><p>Confrim & Send</p></li>
+          </ul>
+          <div class="line"></div>
+          <div class="eclipse">
+            <p class="header">satisfaction</p>
+            <p class="content">100%</p>
+            <p class="footer">Guaranteed</p>
+          </div>
+        </div>
+        <div class="col-lg-9 col-sm-12 remit_steps">
+          <div class="remit_step_one">
+            <div class="header col-lg-12 col-sm-12">
+              <ul>
+                <li class="active">1</li>
+                <div class="line "></div>
+                <li class="">2</li>
+                <div class="line "></div>
+                <li class="">3</li>
+                <div class="line "></div>
+                <li class="">4</li>
+                <div class="line "></div>
+                <li class="">5</li>
+              </ul>
+            </div>
+            <div class="col-12">
+              <div class="title">
+                <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-4 col-xs-12">
+                  <h1 class="oneH1">Send money to:</h1>
+                </div>
+                <div class="col-lg-6 col-md-6 col-sm-4 col-xs-12">
+                  <select name="country">
+                    <option value="USA">USA</option>
+                    <option value="Serbia">Serbia</option>
+                    <option value="Kazakhstan">Kazakhstan</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            </div>
+            <div class="row send_info">
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <h3>You send:</h3>
+                <input type="text" placeholder="100" />
+                <select name="currency">
+                  <option value="Kazakhstan">KZT</option>
+                  <option value="Serbia">DIN</option>
+                  <option value="USA">US</option>
+                </select>
+                <p class="description">Pay with debit card <br />1 USD = 370 KZT </p>
+              </div>
+              <div class="col-lg-6 col-md-6 col-sm-12">
+                <h3>They receive:</h3>
+                <input type="text" placeholder="100" />
+                <select name="currency">
+                  <option value="Kazakhstan">KZT</option>
+                  <option value="Serbia">DIN</option>
+                  <option value="USA">US</option>
+                </select>
+              </div>
+            </div>
+            <div class="delivery_method">
+              <h3>Delivery method</h3>
+              <label class="c">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+                <p>Bank Deposit</p>
+              </label>
+            </div>
+            <div class="delivery_location">
+              <h3>Delivery location</h3>
+              <label class="c">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+                <p>KAZKOM Bank</p>
+              </label>
+              <label class="c">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+                <p>Caspi Bank</p>
+              </label>
+            </div>
+            <div class="buttons">
+              <a class="next_button" href="#">Next</a>
+            </div>
+          </div>
+         <!-- <div class="remit_step_two">
+            <div class="header col-lg-12 col-sm-10">
+              <ul>
+                <li class="active">1</li>
+                <div class="line active"></div>
+                <li class="active">2</li>
+                <div class="line"></div>
+                <li class="">3</li>
+                <div class="line "></div>
+                <li class="">4</li>
+                <div class="line "></div>
+                <li class="">5</li>
+              </ul>
+            </div>
+            <div class="user_info">
+              <div class="title">
+                <h1 class="step_two_h1" >Beneficiary’s info</h1>
+              </div>
+              <p class="description">Enter your beneficiary’s KAZKOM Bank account Number</p>
+              <input type="text" placeholder="e.g., 123456789" />
+              <div class="title">
+                <h1 class="step_two_h1">Beneficiary’s contact information</h1>
+              </div>
+              <p class="description customH">This information should match what's on your recipient's ID.</p>
+              <div class="contact_block">
+                <input type="text" placeholder="First Name" />
+                <input type="text" placeholder="Last Name" />
+                <br>
+                <input type="text" placeholder="Phone number" />
+                <label class="c">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <p>Send SMS updates about this transfer to my beneficiary’s</p>
+                </label>
+              </div>
+              <div class="title">
+                <h1 class="step_two_h1">Beneficiary’s Address</h1>
+              </div>
+              <div class="contact_block">
+                <input type="text" placeholder="Select a state" />
+                <input type="text" placeholder="City" />
+                <br>
+                <input class="full" type="text" placeholder="Address" />
+              </div>
+            </div>
+            <div class="buttons">
+              <a class="back_button" href="#">Back</a>
+              <a class="next_button" href="#">Continue</a>
+            </div>
+          </div>  -->
+          <!-- <div class="remit_step_three">
+            <div class="header col-lg-12 col-sm-12" >
+              <ul>
+                <li class="active">1</li>
+                <div class="line active"></div>
+                <li class="active">2</li>
+                <div class="line active"></div>
+                <li class="active">3</li>
+                <div class="line"></div>
+                <li class="">4</li>
+                <div class="line "></div>
+                <li class="">5</li>
+              </ul>
+            </div>
+            <div class="user_info">
+              <div class="title">
+                <h1>Sender contact information</h1>
+              </div>
+              <div class="contact_block">
+                <input type="text" placeholder="First Name" />
+                <input type="text" placeholder="Last Name" />
+                <br>
+                <input type="text" placeholder="Phone number" />
+                <p class="description">We my call you if we require more information to complete your transfer</p>
+                <input type="text" placeholder="DD / MM / YYYY" />
+                <p class="description">We use this information to confrim your identity, as required by federal banking laws. Please note any information you provide us will be stored securely and in accordance with our Privat Policy. </p>
+              </div>
+
+                <h1>Beneficiary’s contact information</h1>
+              <p class="description customH">Please enter your current home address. Misspellings or abbreviations may cause delays.</p>
+              <div class="contact_block">
+                <input type="text" placeholder="Select a province" />
+                <input type="text" placeholder="City" />
+                <br>
+                <input type="text" class="full" placeholder="Street address" />
+                <br>
+                <input type="text" placeholder="Postal code" />
+                <input type="text" placeholder="Apartment, suite, unit. etc" />
+              </div>
+            </div>
+            <div class="buttons">
+              <a href="#" class="back_button">Back</a>
+              <a href="#" class="next_button">Continue</a>
+            </div>
+          </div> -->
+          <!-- <div class="remit_step_four">
+            <div class="header ">
+              <ul>
+                <li class="active">1</li>
+                <div class="line active"></div>
+                <li class="active">2</li>
+                <div class="line active"></div>
+                <li class="active">3</li>
+                <div class="line active"></div>
+                <li class="active">4</li>
+                <div class="line "></div>
+                <li class="">5</li>
+              </ul>
+            </div>
+            <div class="user_info">
+              <div class="title">
+                <h1>Payment type</h1>
+              </div>
+              <div class="contact_block card_type">
+                <label class="c">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <p>Debit Card</p>
+                </label>
+                <label class="c">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <p>Credit Card</p>
+                </label>
+                <p class="description"> <img class="alarm" src="../../../assets/images/icons/remit/alarm.png" alt=""> ATM cards, such as interac, are not supported at this time</p>
+              </div>
+              <div class="title">
+                <h1>Payment details</h1>
+              </div>
+              <div class="contact_block">
+                <input type="text" class="full" placeholder="Card number" />
+                <br>
+                <input type="text" placeholder="Expiration date" />
+                <input type="text" placeholder="Securty code" />
+                <br>
+                <input type="text" class="full" placeholder="Name is it appears on card" />
+              </div>
+              <div class="title">
+                <h1>Billing address</h1>
+              </div>
+              <div class="contact_block">
+                <label class="c">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <p>Use home address</p>
+                  <p>Serbia, Nis</p>
+                  <p>17A, p51</p>
+                </label>
+              </div>
+            </div>
+            <div class="buttons">
+              <a href="#" class="back_button">Back</a>
+              <a href="#" class="next_button">Continue</a>
+            </div>
+          </div> -->
+          <!-- <div class="remit_step_five">
+            <div class="header col-lg-12 col-sm-12">
+              <ul>
+                <li class="active">1</li>
+                <div class="line active"></div>
+                <li class="active">2</li>
+                <div class="line active"></div>
+                <li class="active">3</li>
+                <div class="line active"></div>
+                <li class="active">4</li>
+                <div class="line active"></div>
+                <li class="active">5</li>
+              </ul>
+            </div>
+            <div class="user_info">
+              <div class="title">
+                <h1>Confrim and send</h1>
+              </div>
+              <div class="info_block">
+                <div class="item">
+                  <h4 class="name">From:</h4>
+                  <h4>Valitskiy Dmitriy (Serbia, Nis, Parachenka 25)</h4>
+                </div>
+                <div class="item">
+                  <h4 class="name">To:</h4><h4>Lazar Jankovic (Kazakhstan , Almaty, Abaya 121)</h4>
+                </div>
+              </div>
+              <div class="info_block">
+                <div class="item">
+                  <h4 class="name">Amount:</h4><h4>$100 - KZT 37,000</h4>
+                </div>
+                <div class="item">
+                  <h4 class="name">Echange rate:</h4><h4>$1 - KZT 370</h4>
+                </div>
+                <div class="item">
+                  <h4 class="name">Payment type:</h4><h4>Debit card (XXXX-0931)</h4>
+                </div>
+                <div class="item">
+                  <h4 class="name">Sender number:</h4><h4>+3816745678</h4>
+                </div>
+                <label class="c">
+                  <input type="checkbox">
+                  <span class="checkmark"></span>
+                  <p>I Agree Privacy Policy </p>
+                </label>
+              </div>
+            </div>
+            <div class="buttons">
+              <a href="#" class="back_button">Back</a>
+              <a href="#" class="send_button">Confrim and send</a>
+            </div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,597 @@
+.home {
+  display: flex;
+  min-height: 900px;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.side_menu {
+  width: 260px;
+  background: #0b1220;
+  height: 100%;
+  z-index: 10;
+}
+
+  .side_menu .header {
+    height: 80px;
+    background: #484d58;
+  }
+
+.back_menu {
+  width: 39px;
+  height: 39px;
+  background-image: url('/../../assets/images/icons/menu/back.png');
+  margin: 10px 0 0 75px;
+  cursor: pointer;
+}
+
+.work_area {
+  height: 1000px;
+  width: 1280px;
+  background: #0b1220;
+  display: flex;
+}
+
+.user_menu {
+  height: 290px;
+  width: 100%;
+}
+
+.notifications {
+  width: 100%;
+}
+
+.msg {
+  width: 30px;
+  height: 30px;
+  float: left;
+  background-image: url(../../../assets/images/icons/menu/msg.png);
+  cursor: pointer;
+}
+
+.bell {
+  width: 30px;
+  height: 30px;
+  float: right;
+  background-image: url(../../../assets/images/icons/menu/bell.png);
+  cursor: pointer;
+}
+
+.user_name {
+  font-size: 25px;
+  text-align: center;
+  font-family: "Lato", sans-serif;
+}
+
+.user_menu .user_avatar {
+  width: 141px;
+  height: 141px;
+  background-image: url('/../../assets/images/icons/menu/user_avatar.png');
+  margin: 20px auto;
+}
+
+.side_menu .header p {
+  font-size: 25px;
+  text-transform: uppercase;
+  font-family: "Lato", sans-serif;
+  margin: 17px 0px 0px 10px;
+}
+
+.menu_parrent_item {
+  width: 100%;
+  height: 60px;
+  background: #484d58;
+  margin-bottom: 5px;
+  cursor: pointer;
+}
+
+.hZ {
+  float: left;
+  width: 50px;
+}
+
+.back_menu {
+  float: right;
+  widows: 70px;
+  margin: 17px 22px 0 0;
+}
+
+.menu_parrent_item p {
+  font-size: 25px;
+  text-transform: uppercase;
+  padding: 17px 0 0 15px;
+}
+
+.parrent_arrow {
+  width: 27px;
+  height: 15px;
+  margin: 23px 0 0 95px;
+  background-image: url('/../../assets/images/icons/menu/arrow.png');
+  /*  -webkit-transition: -webkit-transform .4s ease-in-out;
+  -ms-transition: -ms-transform .4s ease-in-out;
+  transition: transform .4s ease-in-out;*/
+  float: right;
+  margin: -36px 20px 0px 0px;
+}
+
+.menu_sub_item {
+  width: 100%;
+  height: 60px;
+  background: #484d58;
+  margin-bottom: 5px;
+  display: flex;
+  cursor: pointer;
+  display: none;
+}
+
+  .menu_sub_item:hover {
+    background: #0b1220;
+  }
+
+  .menu_sub_item p {
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 17px 0 0 30px;
+  }
+
+.sub_ico {
+  width: 27px;
+  height: 25px;
+  display: flex;
+  margin: -47px 0 0 205px;
+}
+
+.user_line {
+  height: 2px;
+  width: 60%;
+  background: #dabd96;
+  margin: 0 auto;
+}
+
+.user_wallet {
+  margin: 20px auto;
+  text-align: center;
+  width: 100%;
+  padding-left: 12px;
+  display: flex;
+}
+
+  .user_wallet span {
+    width: 2px;
+    height: 30px;
+    background: #dabd96;
+    float: left;
+    margin: 0 20px 0px 20px;
+  }
+
+  .user_wallet p {
+    display: flex;
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+
+  /* ==========================
+        |  TABLET DESIGN |
+      ========================= */
+@media only screen and (device-width: 768px) {
+  /* For general iPad layouts */
+  .side_menu {
+    width: 85px;
+    background: #0b1220;
+    height: 100%;
+    z-index: 10;
+  }
+  .side_menu .header p {
+    width: 100%;
+  }
+
+  .hZ {
+    display: none;
+  }
+
+  .user_menu .user_avatar {
+    width: 60px;
+    height: 60px;
+    background-image: url('/../../assets/images/icons/menu/user_avatar_min.png');
+    float: left;
+    margin-left: 13px;
+  }
+
+  .back_menu {
+    width: 39px;
+    height: 39px;
+    background-image: url(/../../assets/images/icons/menu/back.png);
+    cursor: pointer;
+  }
+
+  .user_wallet span {
+    display: none;
+  }
+
+  .user_wallet {
+    display: block;
+    padding-left: 0px;
+  }
+
+  .user_wallet p {
+    width: 100%;
+  }
+
+  .parrent_arrow {
+    width: 18px;
+    height: 10px;
+    margin: 23px 0 0 95px;
+    background-image: url('/../../assets/images/icons/menu/arrow_min.png');
+    float: right;
+    margin: -13px 33px 0px 0px
+  }
+
+  .menu_parrent_item p {
+   font-size: 15px;
+    text-transform: uppercase;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .menu_sub_item {
+    height: 40px;
+  }
+
+  .menu_parrent_item {
+    width: 100%;
+    height: 45px;
+    background: #484d58;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  .menu_sub_item p {
+    color: transparent;
+    background-image: url(../../../assets/images/icons/menu/transfer.png);
+    height: 25px;
+    width: 30px;
+    margin-left: 30px;
+  }
+
+  .menu_sub_item {
+    padding-top: 5px;
+  }
+
+  .sub_ico {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 1024px) and (orientation:portrait) {
+  /* For portrait layouts only */  .side_menu {
+    width: 85px;
+    background: #0b1220;
+    height: 100%;
+    z-index: 10;
+  } 
+  .user_menu .user_avatar {
+    width: 60px;
+    height: 60px;
+    background-image: url('/../../assets/images/icons/menu/user_avatar_min.png');
+    float: left;
+    margin-left: 13px;
+
+  }
+
+  .hZ {
+    display: none;
+  }
+
+  .back_menu {
+    width: 39px;
+    height: 39px;
+    background-image: url(/../../assets/images/icons/menu/back.png);
+    cursor: pointer;
+  }
+
+  .user_wallet span {
+    display: none;
+  }
+
+  .user_wallet {
+    display: block;
+    padding-left: 0px;
+  }
+
+  .user_wallet p {
+    width: 100%;
+  }
+
+  .parrent_arrow {
+    width: 18px;
+    height: 10px;
+    margin: 23px 0 0 95px;
+    background-image: url('/../../assets/images/icons/menu/arrow_min.png');
+    float: right;
+    margin: -13px 33px 0px 0px
+  }
+
+  .menu_parrent_item p {
+   font-size: 15px;
+    text-transform: uppercase;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .menu_sub_item {
+    height: 40px;
+  }
+
+  .menu_parrent_item {
+    width: 100%;
+    height: 45px;
+    background: #484d58;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+  .menu_sub_item p {
+    color: transparent;
+    background-image: url(../../../assets/images/icons/menu/transfer.png);
+    height: 25px;
+    width: 30px;
+    margin-left: 30px;
+  }
+
+  .menu_sub_item {
+    padding-top: 5px;
+  }
+
+  .sub_ico {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 600px) and (max-device-width: 1024px) and (orientation:landscape) {
+  /* For landscape layouts only */
+  .side_menu {
+    width: 85px;
+    background: #0b1220;
+    height: 100%;
+    z-index: 10;
+  }
+  .user_menu .user_avatar {
+    width: 60px;
+    height: 60px;
+    background-image: url('/../../assets/images/icons/menu/user_avatar_min.png');
+    float: left;
+    margin-left: 13px;
+  }
+  
+  .col-sm-2 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 9.666667%;
+}
+  .hZ {
+    display: none;
+  }
+
+  .back_menu {
+    width: 39px;
+    height: 39px;
+    background-image: url(/../../assets/images/icons/menu/back.png);
+    cursor: pointer;
+  }
+
+  .user_wallet span {
+    display: none;
+  }
+
+  .user_wallet {
+    display: block;
+    padding-left: 0px;
+  }
+
+  .user_wallet p {
+    width: 100%;
+  }
+
+  .parrent_arrow {
+    width: 18px;
+    height: 10px;
+    margin: 23px 0 0 95px;
+    background-image: url('/../../assets/images/icons/menu/arrow_min.png');
+    float: right;
+    margin: -13px 33px 0px 0px
+  }
+
+  .menu_parrent_item p {
+   font-size: 15px;
+    text-transform: uppercase;
+    padding: 0px;
+    text-align: center;
+  }
+
+  .menu_sub_item {
+    height: 40px;
+  }
+
+  .menu_parrent_item {
+    width: 100%;
+    height: 45px;
+    background: #484d58;
+    margin-bottom: 5px;
+    cursor: pointer;
+  }
+  .menu_sub_item p {
+    color: transparent;
+    background-image: url(../../../assets/images/icons/menu/transfer.png);
+    height: 25px;
+    width: 30px;
+    margin-left: 30px;
+  }
+
+  .menu_sub_item {
+    padding-top: 5px;
+  }
+
+  .sub_ico {
+    display: none;
+  }
+  
+}
+
+@media (min-width: 992px){
+  .col-lg-2 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 16.666667%;
+    flex: 0 0 16.666667%;
+    max-width: 9.666667%;
+  }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation:portrait) {
+  
+  .buttons {
+     text-align: center;
+   }
+   
+   .buttons a {
+    float: none;
+   }
+}
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (orientation:landscape) {
+  .buttons {
+     text-align: center;
+   }
+
+   .buttons a {
+    float: none;
+   }
+   .menu_sub_item p {
+    padding: 17px 0 0 15px;
+  }
+
+  .sub_ico { 
+    margin: -47px 0 0 160px; 
+  }
+}
+
+@media (min-width: 1025px) {
+  @media (max-width: 1366px) {
+    .menu_parrent_item p {
+      font-size: 18px;
+      text-transform: uppercase;
+      padding: 17px 0 0 7px;
+    }
+
+    .side_menu .header p { 
+      font-size: 18px; 
+      text-transform: uppercase; 
+      font-family: "Lato", sans-serif; 
+      margin: 23px 0px 0px 5px; 
+    }
+
+    .user_menu .user_avatar {
+      width: 60px;
+      height: 60px;
+      background-image: url('/../../assets/images/icons/menu/user_avatar_min.png');
+      float: left;
+      margin-left: 13px;
+    }
+ 
+    .user_wallet {
+      padding-left:  0px;
+    }
+
+    .back_menu {
+      margin: 17px 10px 0 0;
+    }
+    .parrent_arrow {
+      margin: -37px 10px 0px 0px;
+    }
+
+    .menu_sub_item p { 
+      font-size: 18px;
+      padding: 17px 0 0 5px;
+    }
+
+    .sub_ico {
+      margin: -47px 0 0 105px
+    }
+  }
+}
+
+
+@media (min-width: 1360px) {
+  @media (max-width: 1366px) {
+    .sub_ico {
+      margin: -47px 0 0 185px
+    }
+
+    .user_menu {
+      height: 290px;
+      width: 100%;
+    }
+
+    .notifications {
+      width: 100%;
+    }
+
+    .msg {
+      width: 30px;
+      height: 30px;
+      float: left;
+      background-image: url(../../../assets/images/icons/menu/msg.png);
+      cursor: pointer;
+    }
+
+    .bell {
+      width: 30px;
+      height: 30px;
+      float: right;
+      background-image: url(../../../assets/images/icons/menu/bell.png);
+      cursor: pointer;
+    }
+
+    .user_name {
+      font-size: 25px;
+      text-align: center;
+      font-family: "Lato", sans-serif;
+    }
+    .side_menu .header p {
+      font-size: 25px;
+      text-transform: uppercase;
+      font-family: "Lato", sans-serif;
+      margin: 17px 0px 0px 10px;
+    }
+
+    .user_menu .user_avatar {
+      width: 141px;
+      height: 141px;
+      background-image: url('/../../assets/images/icons/menu/user_avatar.png');
+      margin: 20px auto;
+    }
+
+    .menu_parrent_item {
+      width: 100%;
+      height: 60px;
+      background: #484d58;
+      margin-bottom: 5px;
+      cursor: pointer;
+    }
+    
+    .user_name[_ngcontent-c2] {
+      font-size: 25px;
+      text-align: center;
+      font-family: "Lato", sans-serif;
+      padding-top: 182px;
+    }
+  }
+}
+
+/* ===============
+  | MOBILE DESIGN |
+  ================  */
+
+@media only screen and (max-device-width: 600px) {
+  .home {
+    display: none;
+  }
+}
